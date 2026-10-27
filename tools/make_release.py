@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import re
 import shutil
 import sys
 import zipfile
@@ -11,7 +12,11 @@ from pathlib import Path
 ROOT = Path(r"F:\MCLite")
 EXE = ROOT / "dist" / "MCLite.exe"
 RELEASE = ROOT / "release"
-VERSION = "1.6.1"
+# 版本号直接取源码里的 __version__，避免和 mclite/__init__.py 脱节
+VERSION = re.search(
+    r'__version__\s*=\s*"([^"]+)"',
+    (ROOT / "mclite" / "__init__.py").read_text("utf-8"),
+).group(1)
 ZIP = ROOT / "dist" / f"MCLite-{VERSION}-win64.zip"
 
 
