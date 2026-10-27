@@ -1,0 +1,11 @@
+{
+  "version": "1.5.0",
+  "frozen": true,
+  "dnd": true,
+  "pages": [
+    "home",
+    "install",
+    "mods",
+    "settings"
+  ]
+}

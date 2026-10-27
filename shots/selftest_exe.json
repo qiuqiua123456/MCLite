@@ -1,0 +1,10 @@
+{
+  "version": "1.6.1",
+  "frozen": true,
+  "dnd": true,
+  "pages": [
+    "home",
+    "install",
+    "settings"
+  ]
+}

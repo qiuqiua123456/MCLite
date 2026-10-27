@@ -1,0 +1,38 @@
+[
+  {
+    "name": "hero-home",
+    "prompt": "epic minecraft voxel landscape at golden hour, floating islands with waterfalls, blocky oak village on the right side, warm sunlight and volumetric god rays, lush green grass, calm blue river in the foreground, highly detailed voxel art, cinematic wide banner composition, empty sky on the left third for text overlay",
+    "negative": "text, watermark, letters, logo, ui, frame, border, people, characters",
+    "width": 1280,
+    "height": 384,
+    "steps": 24,
+    "seed": 20261021
+  },
+  {
+    "name": "empty-mods",
+    "prompt": "isometric voxel illustration of an open wooden treasure chest overflowing with glowing enchanted books and colorful spell scrolls, small floating grass blocks and sparkles around it, minecraft art style, soft studio lighting, centered, isolated on a pure flat white background, clean product render",
+    "negative": "text, watermark, background texture, gradient background, blue background, dark background, people",
+    "width": 640,
+    "height": 640,
+    "steps": 24,
+    "seed": 771001
+  },
+  {
+    "name": "empty-versions",
+    "prompt": "isometric voxel illustration of a stack of three grass blocks with a wooden pickaxe and a small crafting table on top, a tiny glowing portal in the background, minecraft art style, soft studio lighting, centered, isolated on a pure flat white background, clean product render",
+    "negative": "text, watermark, background texture, gradient background, blue background, dark background, people",
+    "width": 640,
+    "height": 640,
+    "steps": 24,
+    "seed": 771002
+  },
+  {
+    "name": "empty-search",
+    "prompt": "isometric voxel illustration of a large magnifying glass hovering over three colorful blocks, soft sparkles, minecraft art style, minimal, soft studio lighting, centered, isolated on a pure flat white background, clean product render",
+    "negative": "text, watermark, background texture, gradient background, blue background, dark background, people",
+    "width": 640,
+    "height": 640,
+    "steps": 22,
+    "seed": 771003
+  }
+]
